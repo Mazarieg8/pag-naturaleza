@@ -1,0 +1,119 @@
+/* Fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilos generales del cuerpo y fuentes */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente principal */
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilo de fondo más llamativo */
+.bg-green {
+    background-color: #28a745 !important; /* Verde más intenso */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #3d9970; /* Verde principal */
+    border-bottom: 2px solid #2f6f51; /* Borde inferior */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff; /* Texto blanco */
+    font-weight: 500; /* Peso de la fuente */
+    font-size: 1.2rem; /* Tamaño de la fuente */
+}
+
+.navbar-brand img {
+    margin-right: 10px; /* Espacio a la derecha del logo */
+}
+
+.brand-text {
+    vertical-align: middle; /* Alinear verticalmente */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Color del icono del toggle */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Texto blanco */
+    font-weight: 500; /* Peso de la fuente */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4af37; /* Color de texto al pasar el mouse */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para el botón de búsqueda */
+.form-control,
+.btn-outline-dark {
+    color: #2f6f51; /* Color de texto */
+    border-radius: 20px; /* Bordes redondeados */
+    font-family: 'Roboto', sans-serif; /* Fuente principal */
+}
+
+.form-control {
+    padding: 0.5rem 1rem; /* Espaciado interno */
+}
+
+.btn-outline-dark {
+    padding: 0.5rem 1rem; /* Espaciado interno */
+}
+
+.form-inline button.btn-outline-dark:hover {
+    color: #ffffff; /* Color de texto al pasar el mouse */
+    background-color: #2f6f51; /* Color de fondo al pasar el mouse */
+    border-color: #2f6f51; /* Color del borde al pasar el mouse */
+}
+
+/* Estilos para el contenido principal */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Color de texto */
+    font-family: 'Roboto', sans-serif; /* Fuente principal */
+    font-weight: bold; /* Peso de la fuente */
+}
+
+.text-center {
+    text-align: center; /* Alinear al centro */
+}
+
+.mb-5 {
+    margin-bottom: 5rem !important; /* Margen inferior */
+}
+
+/* Estilos para las tarjetas de noticias */
+.card {
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Bordes redondeados */
+    border-top-right-radius: 10px; /* Bordes redondeados */
+}
+
+.card-title {
+    color: #333; /* Color de texto */
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+}
+
+.card-text {
